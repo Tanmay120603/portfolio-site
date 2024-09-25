@@ -1,0 +1,16 @@
+.svg-container{
+    position: fixed;
+    z-index: 20;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    &:hover{
+        cursor: pointer;
+    }
+}

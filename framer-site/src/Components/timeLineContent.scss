@@ -1,0 +1,111 @@
+@import "../colors";
+@import "../responsiveness.scss";
+
+.timeline-content-container{
+    background-color: #0f0f0f;
+    border: 2px solid #7E30E1;
+    box-shadow: 0px 0px 12px #7E30E1;
+    width: 30vw;
+    height: fit-content;
+    padding-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    @include smallScreenLaptop{
+        width: 70vw;
+        margin-left: 10px;
+        margin-bottom: 80px;
+    }
+    @include tablet{
+        margin-bottom: 60px;
+    }
+    @include mobile{
+        margin-bottom: 40px;
+    }
+    .arrow-pointer{
+        position: absolute;
+        top: 20px;
+        border: 15px solid transparent;
+        @include tablet{
+            top: 10px;
+        }
+    }
+    .pointer-left{
+        left:-30px;
+        border-right-color: #7E30E1;
+    }
+    .pointer-right{
+        right: -30px;
+        border-left-color: #7E30E1;
+        @include smallScreenLaptop{
+            right: 100%;
+            border-right-color: #7E30E1;
+            border-left-color: transparent;
+        }
+    }
+    .timeline-content-header{
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        padding:  3% 5%;
+        max-width: 100%;
+        .logo-container{
+            width: 60px;
+            height: 60px;
+            @include tablet{
+                width: 50px;
+                height: 50px;
+            }
+            @include mobile{
+                width: 40px;
+                height: 40px;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        .text-container{
+            color: $fontColor;  
+            text-align: left;
+            font-size: 1.4rem;
+            width: 75%;
+            h2{
+                margin: 0px;
+                padding: 0px;
+            }
+            p{
+                padding: 0px;
+                margin: 0px;
+            }     
+            span{
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .timeline-content-grade-desc{
+        width: 100%;
+        padding: 0% 5%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        h2{
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: $fontColor;
+            text-align: left;
+            padding: 0px;
+            margin: 0px;
+        }
+        p{
+            font-size: 1.6rem;
+            color: $fontColor;
+            text-align: left;
+            padding-right: 45px;
+            margin: 0px;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+@import "../responsiveness.scss";
+
+.navbar-container{
+    position: fixed;
+    left: 0px;
+    z-index: 10;
+    height: 100vh;
+    width: 25vw;
+    background-color: whitesmoke;
+    color: black;
+    @include smallScreenLaptop{
+        width: 70vw;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        list-style: none;
+        gap: 10px;
+    a{ 
+        text-decoration: none;
+        font-size: 3.2rem;
+        color: black;
+        @include smallScreenLaptop{
+            font-size: 5.4rem;
+        }
+        @include tablet{
+            font-size: 4.2rem;
+        }
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+   }
+}
