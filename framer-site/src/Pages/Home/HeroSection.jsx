@@ -1,7 +1,7 @@
 import "./heroSection.scss"
 import {motion} from "framer-motion"
 import {ReactTyped} from "react-typed"
-import { bioDetails } from "../../utils/constant"
+import { bioDetails } from "../../utils/constant.js"
 
 const sectionVariants={
     hiddenLeft:{
