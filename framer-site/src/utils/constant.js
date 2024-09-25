@@ -31,6 +31,6 @@ const projectDetails=[
         description:"I completed my 10th grade at an English medium school, where I developed strong written and verbal communication skills. My education provided a solid foundation in the English language, enabling me to articulate ideas clearly and effectively in both academic and everyday contexts.",logo:"/Logos/St-Xavier-Logo.jpg"}]
 
     
-        const contactDetails={email:"tanmaybhansali450@gmail.com",phoneNumber:"9372385167"}
+        const contactDetails={email:"tanmaybhansali07@gmail.com",phoneNumber:"9372385167"}
 
 export {bioDetails,projectDetails,skillsDetails,educationDetails,contactDetails}
