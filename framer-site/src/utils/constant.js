@@ -3,7 +3,7 @@ const bioDetails={
     role:["Full Stack Developer","UI/UX Designer","Programmer"],
     description:"I am an aspiring web developer with a solid foundation in web development principles and a strong desire to learn and grow in this dynamic field. While I do not yet have professional experience, my enthusiasm for web technologies drives me to constantly expand my knowledge and improve my skills.",
     linkedInUrl:"https://www.linkedin.com/in/tanmay-bhansali/",
-    resumeUrl:"https://drive.google.com/file/d/16h_25WoelkNJIUa9GtesgVNjGe-IEoPI/view?usp=drive_link"   
+    resumeUrl:"https://drive.google.com/file/d/1funznQuXH1oKZl7vYc34cUtjZgfYW9zl/view?usp=sharing"   
 }
 
 const projectDetails=[
