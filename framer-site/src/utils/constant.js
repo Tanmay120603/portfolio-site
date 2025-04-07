@@ -23,7 +23,7 @@ const projectDetails=[
     ]
 
     const educationDetails=[
-        {id:1,name:"Shree L. R. Tiwari College of Engineering",course:"Bachelor of Technology - BTech, Information Technology",grade:"8 CGPA",durationFrom:"Nov 2022",durationTo:"June 2025",description:"I'm currently pursuing a BTech degree in Information Technology,gaining knowledge of the MERN stack and industry best practices. This course enhances my computer science fundamentals and involves building comprehensive projects, equipping me with practical skills and preparing me for real-world challenges in the tech industry.",logo:"/Logos/Lr-Tiwari-Logo.png"},
+        {id:1,name:"Sanghvi Institute of Management & Science",course:"Bachelor of Technology - BTech, Information Technology",grade:"7 CGPA",durationFrom:"July 2023",durationTo:"June 2026",description:"I'm currently pursuing a BTech degree in Information Technology,gaining knowledge of the MERN stack and industry best practices. This course enhances my computer science fundamentals and involves building comprehensive projects, equipping me with practical skills and preparing me for real-world challenges in the tech industry.",logo:"/Logos/SIMS-logo.png"},
 
         {id:2,name:"Thakur Polytechnic",course:"Diploma in Information Technology",grade:"89%",durationFrom:"Aug 2019",durationTo:"July 2022",description:"I completed my diploma in Information Technology, acquiring comprehensive knowledge and exposure to computer fundamentals. This education encompassed programming, networking, database management, and system analysis. These experiences provided me with a solid IT foundation, equipping me with essential technical skills for various professional challenges.",logo:"/Logos/Thakur-Polytechnic-Logo.jpg"},
 
